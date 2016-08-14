@@ -1,0 +1,19 @@
+0.  GIF- 256 colors (8-bit), PNG- 256 colors (although ceratin versions can support upto 24 bits), JPEG- Approx. 16 million colors (24- bit), BMP- Approx. 16 million colors (24- bit)
+1.  GIF
+2.  Lossy compression lose some information about the image when it is compressed. Lossless compression formats don't lose information when compressed.
+3.  JPEG
+4.  When a file in a FAT file system is deleted, the filename's first character is changed to indicate that the file has been deleted and that the directory can be recycled. Next, the system moves all of the file's FAT clusters to the hard drive's list of free clusters.  
+5.  As an user, it is recommended that he/she overwrite the data in the hard disk using an appropriate disk sanitization tool available in the market
+6.  <stdint.h> is a header file which contains typedef of certain integer types which have a definite range. This range is defined using macro constants.
+7.  These are special integers which can have values only between a given range (as specified by <stdint.h>). Therefore, they are useful in the context of bmp images which can have only specified values for its attributes.
+8.  1, 4, 4 and 2 respectively.
+9.  0x42 0x4D (BM in ASCII)
+10.  bfSize is the size of the bitmap file (in bytes). biSize is the number of bytes required by the structure.
+11. If biHeight is negative, it indicates a top-down DIB which means that it cannot be compressed.
+12. biBitCount
+13. fopen might return NULL if it encounters an error when trying to open the file. This can happen if the system has run out of memory.
+14. The third argument of fread is the number of objects to be read per cycle. The fread in 'copy.c' reads only one BITMAP<?>HEADERs and hence, the third argument is 1. 
+15. 3
+16. The function fseek() sets the file position data for the given stream. It returns 0 upon success and non-zero upon failure.
+17. Origin value which seeks from the current location.
+18. Milo Banana dun it.

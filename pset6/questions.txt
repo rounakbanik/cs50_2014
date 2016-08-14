@@ -1,0 +1,14 @@
+0.  A lung disease caused by inhaling fine ash and sand dust. 
+1.  Returns resource usage measures or statistics.
+2.  16 (14 primitives + 2 structures)
+3.  This is because the second argument in the getrusage() function is a pointer and hence, it is required that we pass the address of the variable as the argument.
+4.  The for loop basically checks for each word by reading the text character by character, detecting the formation of a word and then checking its spelling.
+    First, the index (which calculates length of the word) is set to 0. The program keeps reading character by character until it reaches a non-alphabetic character.
+    At this stage, the program assumes the formation of a complete word and proceeds to check if the spelling is correct.
+    Simultaneously, the program also records the amount of time required to perform the execution.  
+5.  There might be certain alphanumeric strings which we do not want to analyze. fgetc() ensures that we only detect alphabetic words.
+6.  Because we want the function to be implemented only if checking and loading are successful i.e check and load have value 1.
+7.  Hash table and linked lists.
+8.  0.80 seconds
+9.  Used a better hash function (djb2 function)
+10. Code cannot detect repetition of words while listing misspelled words.
